@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss build styles.css -o output.css"
+    "build:css": "tailwindcss build styles.css -o output.css",
+    "watch:css": "watch 'npm run build:css' styles.css"
+
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "tailwindcss": "^3.4.0"
+  },
+  "devDependencies": {
+    "watch": "^1.0.2"
   }
 }
