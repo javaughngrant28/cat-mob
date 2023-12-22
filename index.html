@@ -8,17 +8,19 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
     />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
     <title>CATMOB</title>
   </head>
 
-  <body>
+  <body class="cursor-default font-poppins">
     <div
       class="mx-auto h-screen w-screen overflow-y-scroll bg-cover bg-scroll bg-bottom bg-no-repeat shadow-lg"
       style="
-        background-image: url('https://wallpaperaccess.com/full/279937.png');
+        background-image: url('/images/mainScreen.png');
       "
     >
-      <nav class="body-font bg-gray-900 text-white opacity-65">
+      <nav class="body-font bg-black text-white bg-opacity-30">
         <div
           class="container mx-auto flex flex-col flex-wrap items-center p-5 md:flex-row"
         >
@@ -26,26 +28,25 @@
             class="title-font mb-4 flex cursor-pointer items-center font-medium text-gray-900 md:mb-0"
           >
             <div
-              class="flex h-10 w-10 justify-center overflow-hidden rounded-full bg-black p-2 text-white"
+              class="flex h-4/5 w-10 justify-center overflow-hidden rounded-full bg-black p-2 text-white"
             >
-              <div>LOGO</div>
+              <img class="h-7" src = "/images/CATMOB_1-1_white.png"/>
             </div>
-            <a class="ml-3 cursor-pointer text-xl">CATMOB</a>
+            <a class="ml-3 font-poppins hover:text-amber-200 cursor-pointer text-xl">CATMOB</a>
           </a>
           <nav
             class="flex flex-wrap items-center justify-center text-base md:ml-auto"
           >
-            <a class="mr-5 hover:text-amber-200" href="#">Home</a>
-            <a class="mr-5 hover:text-amber-200" href="gallery.html">Games</a>
-            <a class="mr-5 hover:text-amber-200" href="#">About Us</a>
-            <a class="mr-5 hover:text-amber-200" href="#" target="_blank"
+            <a class="mr-5 text-amber-200 font-poppins " href="index.html">Home</a>
+            <a class="mr-5 hover:text-amber-200 font-poppins" href="gallery.html">Games</a>
+            <a class="mr-5 hover:text-amber-200 font-poppins" href="https://www.linkedin.com/company/catmob/" target="_blank"
               >Linked In</a
             >
           </nav>
           <a href="contact-us.html"
-            class="mt-4 inline-flex items-center rounded border-0 bg-gray-400 px-3 py-1 text-base hover:bg-gray-700 focus:outline-none md:mt-0"
+            class="bg-gray-900 font-poppins mt-4 inline-flex items-center rounded border-0 px-3 py-1 text-base hover:bg-gray-700 focus:outline-none md:mt-0"
           >
-            Contect Us
+            Contact Us
             <svg
               fill="none"
               stroke="currentColor"
@@ -61,156 +62,171 @@
         </div>
       </nav>
 
-      <div class="h-screen"></div>
+      <div class="h-screen flex justify-center items-center">
+
+        <div class=" w-3/4 h-1/5 flex justify-center items-center lg:w-2/4 ">
+          <p class="text-gray-200 text-center font-poppins text-4xl font-semibold cursor-default">
+            Making Amazing Experiences That Cater To A Variety Of Players
+          </p>
+        </div>
+
+      </div>
 
       <section class="body-font bg-gray-900 text-gray-600">
-        <div class="container mx-auto px-5 py-24">
+        <div class="container mx-auto px-5 pt-24">
           <div class="mb-20 flex w-full flex-wrap">
             <div class="mb-6 w-full lg:mb-0 lg:w-1/2">
               <h1
-                class="title-font mb-2 text-2xl font-medium text-gray-200 sm:text-3xl"
+                class="title-font font-poppins mb-2 text-2xl font-medium text-gray-200 sm:text-3xl cursor-default"
               >
                 GAMES FROM CATMOB
               </h1>
               <div class="h-1 w-20 rounded bg-gray-700"></div>
             </div>
-            <p class="w-full leading-relaxed text-gray-500 lg:w-1/2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam
+            <p class="w-full leading-relaxed font-poppins text-gray-300 lg:w-1/2 cursor-default">
+              We create our games by blending creativity and technical expertise to produce engaging 
+              and innovative games. 
+              Our passion for gaming and commitment to excellence is evident in our work.
             </p>
           </div>
+
+          
+          
           <div class="-m-4 flex flex-wrap justify-center">
-            <div class="bg p-4 md:w-1/2 xl:w-1/4">
+
+
+
+
+            <a href="https://www.roblox.com/games/14099409217/UPD-Donation-Battles" target="_blank"
+            class="bg p-4 md:w-1/2 xl:w-1/4">
               <div class="rounded-lg bg-gray-100 p-3">
                 <img
                   class="mb-6 rounded object-cover object-center"
-                  src="https://preview.redd.it/i-made-these-2-thumbnails-for-game-i-am-working-on-v0-cfm08vktldya1.png?width=3840&format=png&auto=webp&s=ad4c66451600507b514fe6d71f9bf46030d25da3"
+                  src="/images/DB.png"
                   alt="content"
                 />
 
                 <h3
-                  class="title-font text-xs font-medium tracking-widest text-green-500"
+                  class="title-font font-poppins font-medium tracking-widest text-green-400"
                 >
-                  PUBLISHED
+                  PUBLIC
                 </h3>
-                <h2 class="title-font mb-4 text-lg font-medium text-gray-900">
-                  GAME NAME
+                <h2 class=" font-poppins title-font mb-4 text-lg font-medium text-gray-900">
+                  Donation Battles
                 </h2>
-                <p class="text-base leading-relaxed">
-                  A short but cool discription of the game
-                </p>
               </div>
-            </div>
-
-            <div class="bg p-4 md:w-1/2 xl:w-1/4">
-              <div class="rounded-lg bg-gray-100 p-3">
-                <img
-                  class="mb-6 rounded object-cover object-center"
-                  src="https://preview.redd.it/i-made-these-2-thumbnails-for-game-i-am-working-on-v0-cfm08vktldya1.png?width=3840&format=png&auto=webp&s=ad4c66451600507b514fe6d71f9bf46030d25da3"
-                  alt="content"
-                />
-
-                <h3
-                  class="title-font text-xs font-medium tracking-widest text-green-500"
-                >
-                  PUBLISHED
-                </h3>
-                <h2 class="title-font mb-4 text-lg font-medium text-gray-900">
-                  GAME NAME
-                </h2>
-                <p class="text-base leading-relaxed">
-                  A short but cool discription of the game
-                </p>
-              </div>
-            </div>
-
-            <div class="bg p-4 md:w-1/2 xl:w-1/4">
-              <div class="rounded-lg bg-gray-100 p-3">
-                <img
-                  class="mb-6 rounded object-cover object-center"
-                  src="https://preview.redd.it/i-made-these-2-thumbnails-for-game-i-am-working-on-v0-cfm08vktldya1.png?width=3840&format=png&auto=webp&s=ad4c66451600507b514fe6d71f9bf46030d25da3"
-                  alt="content"
-                />
-
-                <h3
-                  class="title-font text-xs font-medium tracking-widest text-green-500"
-                >
-                  PUBLISHED
-                </h3>
-                <h2 class="title-font mb-4 text-lg font-medium text-gray-900">
-                  GAME NAME
-                </h2>
-                <p class="text-base leading-relaxed">
-                  A short but cool discription of the game
-                </p>
-              </div>
-            </div>
-
-            <div class="bg p-4 md:w-1/2 xl:w-1/4">
-              <div class="rounded-lg bg-gray-100 p-3">
-                <img
-                  class="mb-6 rounded object-cover object-center"
-                  src="https://preview.redd.it/i-made-these-2-thumbnails-for-game-i-am-working-on-v0-cfm08vktldya1.png?width=3840&format=png&auto=webp&s=ad4c66451600507b514fe6d71f9bf46030d25da3"
-                  alt="content"
-                />
-
-                <h3
-                  class="title-font text-xs font-medium tracking-widest text-gray-500"
-                >
-                  ONGOING
-                </h3>
-                <h2 class="title-font mb-4 text-lg font-medium text-gray-900">
-                  GAME NAME
-                </h2>
-                <p class="text-base leading-relaxed">
-                  A short but cool discription of the game
-                </p>
-              </div>
-            </div>
-
-            <div class="bg mt-3 flex w-full justify-center">
-              <a href="gallery.html"
-                class="bg rounded border-2 border-gray-400 p-2 px-5 text-gray-300 hover:border-gray-700 hover:bg-gray-700 hover:text-white"
-              >
-                See All
             </a>
-            </div>
-          </div>
-        </div>
 
-        <div class="bg mt-10 flex h-56 w-full items-center justify-center">
-          <div class="bg max-w-md rounded-md p-6 text-center">
-            <!-- Profile Image Section -->
-            <div class="mb-4">
-              <div
-                class="mx-auto h-24 w-24 overflow-hidden rounded-full bg-gray-300"
-              >
+
+            <a href="https://www.roblox.com/games/10911469212/Movie-Theater-Tycoon" target="_blank"
+            class="bg p-4 md:w-1/2 xl:w-1/4">
+              <div class="rounded-lg bg-gray-100 p-3">
                 <img
-                  src="https://static.wikia.nocookie.net/master-keys-dungeon/images/e/e7/Mr_Chicken_Rocket.png/revision/latest?cb=20210309025800"
-                  alt="Profile Image"
-                  class="h-full w-full object-cover"
+                  class="mb-6 rounded object-cover object-center"
+                  src="/images/TheatreIcon.png"
+                  alt="content"
                 />
-              </div>
-            </div>
 
-            <!-- Bio Text Section -->
-            <div>
-              <h2
-                class="mb-2 cursor-pointer text-2xl font-bold text-amber-100 hover:text-amber-200"
-              >
-                CATMOB
-              </h2>
-              <p class="cursor-default text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                suscipit...
-              </p>
-            </div>
+                <h3
+                  class="title-font font-poppins font-medium tracking-widest text-green-400"
+                >
+                  PUBLIC
+                </h3>
+                <h2 class=" font-poppins title-font mb-4 text-lg font-medium text-gray-900">
+                  Movie Theater Tycoon
+                </h2>
+              </div>
+            </a>
+
+
+            <a href="https://www.roblox.com/games/13418725215/WINTER-Dysfunctional-Diner" target="_blank"
+            class="bg p-4 md:w-1/2 xl:w-1/4">
+              <div class="rounded-lg bg-gray-100 p-3">
+                <img
+                  class="mb-6 rounded object-cover object-center"
+                  src="/images/DysDinerIcon.png"
+                  alt="content"
+                />
+
+                <h3
+                  class="title-font font-poppins font-medium tracking-widest text-green-400"
+                >
+                  PUBLIC
+                </h3>
+                <h2 class=" font-poppins title-font mb-4 text-lg font-medium text-gray-900">
+                  Dysfunctional Diner
+                </h2>
+              </div>
+            </a>
+
+
+            <a href="https://www.roblox.com/games/11470428326/Rooftop-2-Basketball" target="_blank"
+            class="bg p-4 md:w-1/2 xl:w-1/4">
+              <div class="rounded-lg bg-gray-100 p-3">
+                <img
+                  class="mb-6 rounded object-cover object-center"
+                  src="/images/jump.png"
+                  alt="content"
+                />
+
+                <h3
+                  class="title-font font-poppins font-medium tracking-widest text-green-400"
+                >
+                  PUBLIC
+                </h3>
+                <h2 class=" font-poppins title-font mb-4 text-lg font-medium text-gray-900">
+                  Rooftop 2 (Basketball)
+                </h2>
+              </div>
+            </a>
+
+          </div>
+
+          <div class=" flex w-full py-10 justify-center">
+            <a href="gallery.html"
+              class="bg rounded border-2 border-gray-400 p-2 px-5 text-gray-300 hover:border-gray-700 hover:bg-gray-700 hover:text-white"
+            >
+              See All
+          </a>
           </div>
         </div>
+
+        
       </section>
 
-      <section class="body-font bg-gray-900 text-gray-600">
+
+      <div class="bg-black bg-opacity-95 flex h-80 w-full items-center justify-center">
+        <div class="bg max-w-md rounded-md p-6 text-center">
+          <!-- Profile Image Section -->
+          <div class="mb-4">
+            <div
+              class=" flex items-center justify-center mx-auto h-24 w-24 overflow-hidden rounded-full bg-gray-300"
+            >
+              <img
+                src="/images/cat2.png"
+                alt="Profile Image"
+                class="h-32 object-cover"
+              />
+            </div>
+          </div>
+
+          <!-- Bio Text Section -->
+          <div>
+            <h2
+              class="mb-2 cursor-pointer text-2xl font-bold text-amber-100 hover:text-amber-200"
+            >
+              CATMOB
+            </h2>
+            <p class="cursor-default text-gray-300">
+              Our mission is to create games together of every genre, 
+              and provide our player base with unique, 
+              immersive and ultimately a pleasurable experience.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section class="bg-black bg-opacity-95 text-gray-600">
         <div class="container mx-auto px-5 py-24">
           <h1
             class="title-font mb-12 text-center text-3xl font-medium text-gray-200"
@@ -218,8 +234,9 @@
             Impressions
           </h1>
           <div class="-m-4 flex flex-wrap">
+
             <div class="w-full p-4 md:w-1/2">
-              <div class="h-full rounded bg-gray-100 p-8">
+              <div class="h-full rounded bg-gray-200 p-8 hover:bg-gray-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -230,60 +247,27 @@
                     d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
                   ></path>
                 </svg>
-                <p class="mb-6 leading-relaxed">
-                  Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                  carry neutra before they sold out fixie 90's microdosing.
-                  Tacos pinterest fanny pack venmo, post-ironic heirloom
-                  try-hard pabst authentic iceland.
+                <p class="mb-6 leading-relaxed text-gray-700">
+                  Young, smart, talented and full of wild ideas - this crew is going places.
                 </p>
-                <a class="inline-flex items-center">
+                <a  href="https://www.linkedin.com/in/peter-mcneill-449012163/" target="_blank"
+                class="inline-flex items-center">
                   <img
                     alt="testimonial"
-                    src="https://static.wikia.nocookie.net/master-keys-dungeon/images/e/e7/Mr_Chicken_Rocket.png/revision/latest?cb=20210309025800"
+                    src="/images/mr.Chicken Rocket.png"
                     class="h-12 w-12 flex-shrink-0 rounded-full object-cover object-center"
                   />
                   <span class="flex flex-grow flex-col pl-4">
                     <span class="title-font font-medium text-gray-900"
                       >Mr. Chicken Rocket</span
                     >
-                    <span class="text-sm text-gray-500">GAME DEVELOPER</span>
+                    <span class="text-sm text-gray-500">Game Developer/ Software Engineer</span>
                   </span>
                 </a>
               </div>
             </div>
-            <div class="w-full p-4 md:w-1/2">
-              <div class="h-full rounded bg-gray-100 p-8">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  class="mb-4 block h-5 w-5 text-gray-400"
-                  viewBox="0 0 975.036 975.036"
-                >
-                  <path
-                    d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
-                  ></path>
-                </svg>
-                <p class="mb-6 leading-relaxed">
-                  Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                  carry neutra before they sold out fixie 90's microdosing.
-                  Tacos pinterest fanny pack venmo, post-ironic heirloom
-                  try-hard pabst authentic iceland.
-                </p>
-                <a class="inline-flex items-center">
-                  <img
-                    alt="testimonial"
-                    src="https://dummyimage.com/107x107"
-                    class="h-12 w-12 flex-shrink-0 rounded-full object-cover object-center"
-                  />
-                  <span class="flex flex-grow flex-col pl-4">
-                    <span class="title-font font-medium text-gray-900"
-                      >Alper Kamu</span
-                    >
-                    <span class="text-sm text-gray-500">DESIGNER</span>
-                  </span>
-                </a>
-              </div>
-            </div>
+            
+           
           </div>
         </div>
       </section>
@@ -295,20 +279,10 @@
           <a
             class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-10 h-10 text-white p-2 bg-white rounded-full"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-              ></path>
-            </svg>
+           
+            <img class="w-14 h-14 p-2 rounded-full"
+             src="/images/cat2.png" />
+
             <span class="ml-3 text-xl text-gray-100">CATMOB</span>
           </a>
           <p
@@ -316,9 +290,8 @@
           >
             © 2023 catmob —
             <a
-              href="https://twitter.com/knyttneve"
+              href="https://twitter.com/baddev_"
               class="text-gray-600 ml-1"
-              rel="noopener noreferrer"
               target="_blank"
               >@mr.bad</a
             >
@@ -326,7 +299,8 @@
           <span
             class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
           >
-            <a class="ml-3 text-gray-500">
+            <a href="https://twitter.com/CompleteATask" target="_blank"
+            class="ml-3 text-gray-500">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -340,7 +314,8 @@
                 ></path>
               </svg>
             </a>
-            <a class="ml-3 text-gray-500">
+            <a href="https://www.linkedin.com/company/catmob/" target="_blank"
+            class="ml-3 text-gray-500">
               <svg
                 fill="currentColor"
                 stroke="currentColor"

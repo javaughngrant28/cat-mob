@@ -8,43 +8,45 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
     />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
     <title>CATMOB</title>
   </head>
 
-  <body>
+  <body class="font-poppins cursor-default">
     <div
       class="mx-auto h-screen w-screen overflow-y-scroll bg-cover bg-scroll bg-bottom bg-no-repeat shadow-lg"
       style="
-        background-image: url('https://wallpaperaccess.com/full/279937.png');
+        background-image: url('/images/mainScreen.png');
       "
     >
-      <nav class="body-font bg-gray-900 text-white opacity-65">
+      <nav class="body-font bg-black text-white bg-opacity-30">
         <div
           class="container mx-auto flex flex-col flex-wrap items-center p-5 md:flex-row"
         >
-          <a href="index.html"
+          <a
             class="title-font mb-4 flex cursor-pointer items-center font-medium text-gray-900 md:mb-0"
           >
             <div
-              class="flex h-10 w-10 justify-center overflow-hidden rounded-full bg-black p-2 text-white"
+              class="flex h-4/5 w-10 justify-center overflow-hidden rounded-full bg-black p-2 text-white"
             >
-              <div>LOGO</div>
+              <img class="h-7" src = "/images/CATMOB_1-1_white.png"/>
             </div>
-            <a href="index.html" class="ml-3 cursor-pointer text-xl">CATMOB</a>
+            <a class="ml-3 font-poppins hover:text-amber-200 cursor-pointer text-xl">CATMOB</a>
           </a>
           <nav
             class="flex flex-wrap items-center justify-center text-base md:ml-auto"
           >
-            <a class="mr-5 hover:text-amber-200" href="gallery.html">Games</a>
-            <a class="mr-5 hover:text-amber-200" href="#">About Us</a>
-            <a class="mr-5 hover:text-amber-200" href="#" target="_blank"
+            <a class="mr-5 hover:text-amber-200 font-poppins " href="index.html">Home</a>
+            <a class="mr-5 hover:text-amber-200 font-poppins" href="gallery.html">Games</a>
+            <a class="mr-5 hover:text-amber-200 font-poppins" href="https://www.linkedin.com/company/catmob/" target="_blank"
               >Linked In</a
             >
           </nav>
-          <a href="index.html"
-            class="mt-4 inline-flex items-center rounded border-0 bg-gray-400 px-3 py-1 text-base hover:bg-gray-700 focus:outline-none md:mt-0"
+          <a href="#"
+            class="bg-gray-700 font-poppins mt-4 inline-flex items-center rounded border-0 px-3 py-1 text-base focus:outline-none md:mt-0 cursor-default"
           >
-            Home
+            Contact Us
             <svg
               fill="none"
               stroke="currentColor"
@@ -60,178 +62,140 @@
         </div>
       </nav>
 
-      <section class="bg text-gray-600 body-font">
+      <section class="bg text-gray-600 body-font mt-20">
   <div class="container px-5 p-24 mx-auto">
     <div class="flex flex-wrap w-full flex-col items-center text-center">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-200">Want to work with us?</h1>
-      <p class="lg:w-1/2 w-full leading-relaxed text-gray-300">Please contact us using any medium you dream the most convenient.</p>
+      <h1 class=" text-4xl font-medium title-font mb-2 text-gray-100">WANT TO WORK WITH US?</h1>
+      <p class=" w-full leading-relaxed text-gray-200 text-lg font-medium">Please contact us using any medium you deem the most convenient.</p>
     </div>
 </section>
 
 <section class="text-gray-600 body-font">
-  <div class=" container px-5 py-24 mx-auto flex flex-wrap">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex flex-wrap -m-4">
-      
+     
+
       <div class=" p-4 lg:w-1/2 md:w-full">
-        <div class="bg-gray-100 flex border-2 rounded-lg border-gray-950 border-opacity-50 p-8 sm:flex-row flex-col">
-          <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-900 overflow-hidden flex-shrink-0">
-            <div class='text-white'>LOGO</div>
+        <div class="bg-gray-300 hover:bg-opacity-95 bg-opacity-80 flex border-2 rounded-lg border-gray-100 border-opacity-20 p-8 sm:flex-row flex-col">
+          <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-500 flex-shrink-0">
+            <img class="w-full" src="/images/gmail_icon.png"/>
           </div>
-          
           <div class="flex-grow">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
-            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Gmail</h2>
+            <p class="leading-relaxed text-base">Feel free to send us an email when you are ready do have a chat at 
+              <span class="cursor-text text-gray-800">completeatask61@gmail.com</span></p>
             
-            <a class="mt-3 text-indigo-500 inline-flex justify-end items-center w-full">Send A Message
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
+            <div class="bg flex justify-end items-center">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=completeatask61@gmail.com&su=Subject%20of%20the%20Email&body=Hello%20there," target="_blank"
+              class=" mt-3 text-indigo-500 inline-flex items-center">Send A Message
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class=" p-4 lg:w-1/2 md:w-full">
+        <div class="bg-gray-300 hover:bg-opacity-95 bg-opacity-80 flex border-2 rounded-lg border-gray-100 border-opacity-20 p-8 sm:flex-row flex-col">
+          <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-500 flex-shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="#0077B5">
+              <path d="M44.8 0H3.2C1.44 0 0 1.44 0 3.2v41.6C0 46.56 1.44 48 3.2 48H44.8C46.56 48 48 46.56 48 44.8V3.2C48 1.44 46.56 0 44.8 0zM15.2 41.6h-8V18.4h8v23.2zM11.2 15c-3.84 0-6.56-2.56-6.56-5.76S7.36 3.2 11.2 3.2 17.76 5.76 17.76 8.96 15.04 15 11.2 15zm30.4 26.4H32V29.84c0-3.36-.64-7.68-4.8-7.68-4.8 0-5.52 3.76-5.52 7.68V41.6h-8V18.4h7.84v2.4h.16c1.12-2.12 3.84-4.4 7.68-4.4 8 0 9.6 5.28 9.6 12.16v13.44z"/>
+            </svg>
+            
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Linked In</h2>
+            <p class="leading-relaxed text-base">Feel free to send us a message through our linked in page when you are ready do have a chat at 
+            </p>
+            
+            <div class="bg flex justify-end items-center">
+              <a href="https://www.linkedin.com/company/catmob/" target="_blank"
+              class=" mt-3 text-indigo-500 inline-flex items-center">Linked In
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            
 
           </div>
         </div>
       </div>
       
 
-      <div class=" p-4 lg:w-1/2 md:w-full">
-        <div class="bg-gray-100 flex border-2 rounded-lg border-gray-950 border-opacity-50 p-8 sm:flex-row flex-col">
-          <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-900 overflow-hidden flex-shrink-0">
-            <div class='text-white'>LOGO</div>
-          </div>
-          
-          <div class="flex-grow">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
-            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-            
-            <a class="mt-3 text-indigo-500 inline-flex justify-end items-center w-full">Send A Message
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
 
-          </div>
-        </div>
-      </div>
-
-
-      <div class=" p-4 lg:w-1/2 md:w-full">
-        <div class="bg-gray-100 flex border-2 rounded-lg border-gray-950 border-opacity-50 p-8 sm:flex-row flex-col">
-          <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-900 overflow-hidden flex-shrink-0">
-            <div class='text-white'>LOGO</div>
-          </div>
-          
-          <div class="flex-grow">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
-            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-            
-            <a class="mt-3 text-indigo-500 inline-flex justify-end items-center w-full">Send A Message
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-
-          </div>
-        </div>
-      </div>
-
-
-
-      <div class=" p-4 lg:w-1/2 md:w-full">
-        <div class="bg-gray-100 flex border-2 rounded-lg border-gray-950 border-opacity-50 p-8 sm:flex-row flex-col">
-          <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-900 overflow-hidden flex-shrink-0">
-            <div class='text-white'>LOGO</div>
-          </div>
-          
-          <div class="flex-grow">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
-            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-            
-            <a class="mt-3 text-indigo-500 inline-flex justify-end items-center w-full">Send A Message
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-
-          </div>
-        </div>
-      </div>
-      
     </div>
   </div>
 </section>
 
 <div class="bg-gray-900 text-gray-600 body-font overflow-x-hidden">
-        <div
-          class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+  <div
+    class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+  >
+    <a
+      class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+    >
+     
+      <img class="w-14 h-14 p-2 rounded-full"
+       src="/images/cat2.png" />
+
+      <span class="ml-3 text-xl text-gray-100">CATMOB</span>
+    </a>
+    <p
+      class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+    >
+      © 2023 catmob —
+      <a
+        href="https://twitter.com/baddev_"
+        class="text-gray-600 ml-1"
+        target="_blank"
+        >@mr.bad</a
+      >
+    </p>
+    <span
+      class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+    >
+      <a href="https://twitter.com/CompleteATask" target="_blank"
+      class="ml-3 text-gray-500">
+        <svg
+          fill="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-5 h-5"
+          viewBox="0 0 24 24"
         >
-          <a
-            class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-10 h-10 text-white p-2 bg-white rounded-full"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-              ></path>
-            </svg>
-            <span class="ml-3 text-xl text-gray-100">CATMOB</span>
-          </a>
-          <p
-            class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
-          >
-            © 2023 catmob —
-            <a
-              href="https://twitter.com/knyttneve"
-              class="text-gray-600 ml-1"
-              rel="noopener noreferrer"
-              target="_blank"
-              >@mr.bad</a
-            >
-          </p>
-          <span
-            class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
-          >
-            <a class="ml-3 text-gray-500">
-              <svg
-                fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
-                ></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-500">
-              <svg
-                fill="currentColor"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="0"
-                class="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke="none"
-                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
-                ></path>
-                <circle cx="4" cy="4" r="2" stroke="none"></circle>
-              </svg>
-            </a>
-          </span>
-        </div>
-      </div>
+          <path
+            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+          ></path>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/company/catmob/" target="_blank"
+      class="ml-3 text-gray-500">
+        <svg
+          fill="currentColor"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="0"
+          class="w-5 h-5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="none"
+            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+          ></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </span>
+  </div>
+</div>
 
     
   </div>
